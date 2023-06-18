@@ -1,5 +1,6 @@
 .container {
     height: 60px;
+
 }
 
 .wrapper {
@@ -40,6 +41,7 @@
 .searchContainer input {
     border: none;
     outline: none;
+    background: transparent;
 }
 
 .logo {
