@@ -1,6 +1,7 @@
 import React from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import styles from './Styles/Navbar.module.css';
+import logo from '../../../assests/logo.png';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Navbar = () => {
@@ -17,10 +18,7 @@ const Navbar = () => {
         <div
           className={`${styles[`nav-child`]} ${styles[`nav-child-center`]} `}
         >
-          <h1 className={styles.logo}>
-            CW🌏
-            <span className={styles.logoslogan}>-by rishabh</span>
-          </h1>
+          <img src={logo} className={styles.logo} />
         </div>
         <div className={`${styles[`nav-child`]} ${styles[`nav-child-right`]}`}>
           <div className={styles.headerlinks}>

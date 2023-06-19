@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/footer/footer';
 import Navbar from '../components/header/navbar/Navbar';
 import Categories from '../components/homepage/categories/Categories';
 import NewsLetter from '../components/homepage/newsletter/NewsLetter';
@@ -13,6 +14,7 @@ const Home = () => {
       <Categories />
       <Products />
       <NewsLetter />
+      <Footer />
     </div>
   );
 };

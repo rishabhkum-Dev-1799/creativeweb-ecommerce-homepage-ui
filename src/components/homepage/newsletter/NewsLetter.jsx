@@ -13,6 +13,8 @@ const NewsLetter = () => {
         <div className={styles['newsletter-info']}>
           <input
             placeholder='Enter your Email'
+            type='email'
+            required
             className={styles['newsletter-input']}
           />
           <button>
