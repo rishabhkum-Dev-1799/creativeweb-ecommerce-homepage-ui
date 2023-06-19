@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    background-color: #fcf5f5;
+    margin-top: 2em;
+}
+
+.detailsslot {
+    flex: 2;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    justify-content: center;
+    margin-left: 5px
+}
+
+.logo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo>img {
+    width: 70%
+}
+
+.logo>p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5em;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.disclaimercontainer {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.socialcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.footernavigationslot {
+    flex: 1;
+    padding: 20px
+}
+
+.footer-title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.footer-listitem {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.contactslot {
+    flex: 1;
+    padding: 20px;
+}
+
+.contactitem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.paymentsvg {
+    width: 50%;
+}
